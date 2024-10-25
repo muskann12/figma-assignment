@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="mt-16 lg:mt-52 md:mt-52 mb-10">
+    <footer className="absolute top-[140rem] flex flex-col items-center">
       <div className="flex  justify-center gap-9 ">
         <Image 
         src="/images/fb.png"
