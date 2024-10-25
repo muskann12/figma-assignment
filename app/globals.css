@@ -1,21 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
+/* Define CSS Variables */
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #f5f5f5;
+    --foreground: #333333;
+    --customPink: #ff7f7f;
+    --customBlue: #011731;
   }
 }
 
+/* Apply Default Body Styles */
 body {
   color: var(--foreground);
-  background: var(--background);
+  background-color: var(--background); /* Use background-color instead */
   font-family: Arial, Helvetica, sans-serif;
 }
