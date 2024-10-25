@@ -7,8 +7,8 @@ const Footer = () => {
         <Image 
         src="/images/fb.png"
         alt="Facebook Logo"
-        width={30}
-        height={30}
+        width={20}
+        height={20}
         />
         <Image 
         src="/images/insta.png"
@@ -19,14 +19,14 @@ const Footer = () => {
         <Image 
         src="/images/vector.png"
         alt="Twitter Logo"
-        width={30}
-        height={30}
+        width={20}
+        height={20}
         />
         <Image 
         src="/images/Linkedin.png"
         alt="LinkedIn Logo"
-        width={30}
-        height={30}
+        width={20}
+        height={20}
         />
       </div>
       <p className="text-center font-heebo py-10 text-lg font-semibold">
